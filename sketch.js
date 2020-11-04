@@ -48,7 +48,6 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(0);
-  console.log(packageBody.position.y);
    packageSprite.x=packageBody.position.x;
    packageSprite.y=packageBody.position.y;
   
